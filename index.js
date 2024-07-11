@@ -5,7 +5,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 import cors from "cors";
 import compression from "compression";
-import https from "https";
 
 dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
